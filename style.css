@@ -5,6 +5,11 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
+}
+
+ul {
+    list-style-type: none;
 }
 
 a,
@@ -366,7 +371,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 10%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -737,6 +742,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    margin-bottom: 30px;
 }
 
 .portfolio-thumb {
@@ -771,20 +777,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #414345;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #364577;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #364577!important;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -890,6 +897,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
     .page-container {
         overflow-x: hidden;
         position: relative;
